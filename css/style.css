@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #323232;
+  
+  background: url("../img/background-one.jpg");
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1148px;
+  padding: 0 26px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 154px;
+  margin-top: 10px;
+  margin-right: 14px;
+}
+
+.main-menu {
+  float: left;
+  width: 383px;
+  margin-right: 310px;
+  padding: 0 10px;
+
+  color: #000000;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.list-item {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.list-link {
+  display: block;
+  padding-top: 28px;
+  /*margin-right: 28px;*/
+
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+
+  border-bottom: 2px solid #a1b5aa;
+}
+
+.menu-link {
+  float: right;
+  width: 255px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 23px;
+  vertical-align: top;
+
+  text-align: right;
+  font-size: 0;
+}
+
+.menu-link a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-link .search {
+  width: 32px;
+  height: 32px;
+
+  font-size: 0;
+
+  border-radius: 50%;
+  background-color: #a0b5a9;
+}
+
+.menu-link .entrance {
+  width: 90px;
+  height: 32px;
+
+  margin-left: 10px;
+  margin-right: 25px;
+
+  border-radius: 16px; 
+  background-color: #a0b5a9;
+}
+
+.menu-link .basket {
+  position: relative;
+
+  width: 38px;
+
+  padding-left: 30px;
+  padding-right: 34px;
+  /*margin-left: 25px; */
+}
+
+.aa {
+  vertical-align: middle;
+}
+
+.header-item {
+  float: right;
+  width: 180px;
+}
+
+.header-title {
+  width: 670px;
+  padding: 0 10px;
+  margin: 0 auto;
+  
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #ffffff;
+}
